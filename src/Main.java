@@ -126,7 +126,7 @@ public class Main extends JPanel implements ActionListener, PropertyChangeListen
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
-        frame.setSize(400,100);
+        frame.setSize(400,140);
 
         //Create and set up the content pane.
         JComponent newContentPane = new Main(frame);
