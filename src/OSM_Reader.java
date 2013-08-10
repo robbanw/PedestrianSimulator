@@ -92,6 +92,7 @@ public class OSM_Reader extends SwingWorker<Void, Void> {
 	private final String AREA = "area";
 	private final String WAY = "way";
 	private final String LANDUSE = "landuse";
+	private final String MAN_MADE = "man_made";
 	private final String WATERWAY = "waterway";
 	
 	private final String SERVICE = "service";
@@ -676,6 +677,10 @@ public class OSM_Reader extends SwingWorker<Void, Void> {
 											}
 											//LANDUSE
 											else if(attribute.getValue().toString().equals(LANDUSE)){
+												ignore = true;
+											}
+											//MAN MADE
+											else if(attribute.getValue().toString().equals(MAN_MADE)){
 												ignore = true;
 											}
 										}
