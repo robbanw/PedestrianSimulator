@@ -8,6 +8,7 @@ By Robert Wideberg & Christoffer Wiss
 
 
 --Introduction--
+
 Welcome to the Pedestrian Simulator, a Java application that simulates pedestrian behavior in urban environments.
 It was created as a part of our Bachelor thesis project at KTH (Spring 2013). 
 
@@ -16,7 +17,7 @@ Features:
 * Schedule system which determines when a pedestrian should enter and exit the map as well as type-specific activities.
 * Needs system which determines where a pedestrian should head (during non-scheduled time).
 * Ability to fast-forward through the simulation.
-* Sleek UI which allows the user to control the simulator at ease.
+* Sleek GUI which allows the user to control the simulator at ease.
 * Toggleable target lines (will show where pedestrians are currently heading).
 * Cost filter - shows the path cost of the various map components (used in the pedestrians pathfinding).
 * Heat filter - shows how crowded the different areas of the map are.
@@ -26,6 +27,7 @@ http://www.csc.kth.se/utbildning/kth/kurser/DD143X/dkand13/Group9Petter/report/R
 
 
 --Download & Installation--
+
 Windows:
 Download the Pedestrian Simulator from: 
 http://www.csc.kth.se/~robwid/pedestriansimulator/PedestrianSimulator_v1.00.zip.
@@ -42,6 +44,7 @@ There is no such script file for Mac users but they can study MakeNewJar.sh and 
 
 
 --Startup guide--
+
 1. Load a .OSM map file. This can be downloaded from http://www.openstreetmap.org/ by navigating to an area of interest
    and then use the export option.
 2. Pedestrians are added to the map and are each given an individual schedule.
@@ -52,6 +55,7 @@ There is no such script file for Mac users but they can study MakeNewJar.sh and 
 
 
 --Hotkeys--
+
 UP    - Sets simulation speed to max. (64x).
 DOWN  - Sets simulation speed to min. (1x)
 LEFT  - Decreases simulation speed (1/2x of current speed).
@@ -65,6 +69,7 @@ D - Sets the heatmap filter as the current active filter (shows how crowded the 
 
 
 --Known problems--
+
 Linux (Ubuntu):
 * Java windows are sometimes resized to a very small or weird size on startup. 
 - This behavior seem to only happen on Ubuntu systems. Simply restart the program when this happens.
