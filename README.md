@@ -4,6 +4,7 @@ By Robert Wideberg & Christoffer Wiss
 
 
 --Assets used--
+
 * Style-7 font by Sizenko Alexander
 * Icons from www.sjjb.co.uk/mapicons/
 
