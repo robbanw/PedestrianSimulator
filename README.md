@@ -2,9 +2,11 @@ PedestrianSimulator v.1.00
 ==========================
 By Robert Wideberg & Christoffer Wiss
 
+
 --Assets used--
 * Style-7 font by Sizenko Alexander
 * Icons from www.sjjb.co.uk/mapicons/
+
 
 
 --Introduction--
@@ -26,6 +28,7 @@ If you are interested in learning more about the simulator you can check out the
 http://www.csc.kth.se/utbildning/kth/kurser/DD143X/dkand13/Group9Petter/report/Robert.Wideberg.Christoffer.Wiss.report.pdf 
 
 
+
 --Download & Installation--
 
 Windows:
@@ -43,6 +46,7 @@ Linux users can run the MakeNewJar.sh file by typing sh MakeNewJar.sh to create 
 There is no such script file for Mac users but they can study MakeNewJar.sh and replace the Linux specific syntax with the appropriate Mac syntax. 
 
 
+
 --Startup guide--
 
 1. Load a .OSM map file. This can be downloaded from http://www.openstreetmap.org/ by navigating to an area of interest
@@ -52,6 +56,7 @@ There is no such script file for Mac users but they can study MakeNewJar.sh and 
    A green box now appears around the pedestrian to indicate that it is selected. You can now follow its needs on 
    the panel to the right.
 4. Deselect the pedestrian by clicking the left mouse button anywhere else on the map.
+
 
 
 --Hotkeys--
@@ -66,6 +71,7 @@ Q - Toggles anti-aliasing (i.e. smoothening of edges, untoggle anti-aliasing if 
 T - Toggles target lines for all pedestrians.
 C - Sets the path cost filter as the current active filter (shows the path cost of the various map components, used in the pedestrians' pathfinding).
 D - Sets the heatmap filter as the current active filter (shows how crowded the different areas of the map are).
+
 
 
 --Known problems--
